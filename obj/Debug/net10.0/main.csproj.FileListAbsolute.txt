@@ -1,0 +1,15 @@
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/bin/Debug/net10.0/main
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/bin/Debug/net10.0/main.deps.json
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/bin/Debug/net10.0/main.runtimeconfig.json
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/bin/Debug/net10.0/main.dll
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/bin/Debug/net10.0/main.pdb
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.AssemblyInfoInputs.cache
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.AssemblyInfo.cs
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.csproj.CoreCompileInputs.cache
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.sourcelink.json
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.dll
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/refint/main.dll
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.pdb
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/main.genruntimeconfig.cache
+/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/Debug/net10.0/ref/main.dll

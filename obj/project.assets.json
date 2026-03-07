@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/Cockfight-Betting-System.csproj",
-      "projectName": "Cockfight-Betting-System",
-      "projectPath": "/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/Cockfight-Betting-System.csproj",
+      "projectUniqueName": "/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/main.csproj",
+      "projectName": "main",
+      "projectPath": "/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/main.csproj",
       "packagesPath": "/home/riodaberd/.nuget/packages/",
       "outputPath": "/home/riodaberd/Projects/CS15-FINAL/COCKFIGHT-BETTING-SYSTEM/obj/",
       "projectStyle": "PackageReference",
