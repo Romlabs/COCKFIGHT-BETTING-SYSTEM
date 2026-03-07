@@ -7,7 +7,7 @@
 
     static void Jumpstart()
     {
-        do
+        do // Simple Menu must convert to UI
         {
             Console.WriteLine("1. Login Bettor\n" +
             "2. Register Bettor\n" +
@@ -17,10 +17,10 @@
             switch (choice)
             {
                 case "1":
-
+                    Login();
                 break;
                 case "2":
-
+                    Register();
                 break;
                 case "3":
                     Environment.Exit(0);
@@ -31,6 +31,16 @@
             }
 
         } while(true);
+    }
+
+    static void Login()
+    {
+        //Login here
+    }
+
+    static void Register()
+    {
+        //Register here
     }
 }
 
