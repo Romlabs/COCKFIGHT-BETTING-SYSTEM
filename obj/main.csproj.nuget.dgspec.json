@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj": {}
+    "D:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj": {}
   },
   "projects": {
-    "d:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj": {
+    "D:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj",
         "projectName": "main",
-        "projectPath": "d:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj",
+        "projectPath": "D:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\main.csproj",
         "packagesPath": "C:\\Users\\Rommel Yasay II\\.nuget\\packages\\",
-        "outputPath": "d:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\COCKFIGHT-BETTING-SYSTEM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rommel Yasay II\\AppData\\Roaming\\NuGet\\NuGet.Config"
