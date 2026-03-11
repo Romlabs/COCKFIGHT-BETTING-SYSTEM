@@ -16,6 +16,10 @@ namespace Cockfight_Betting_System
         {
             this.Text = "Cockfight Betting System";
             this.Size = new System.Drawing.Size(1200, 1000);
+            this.MaximumSize = this.Size;
+            this.MinimumSize = this.Size;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.BackColor = Color.FromArgb(25, 25, 25);
             this.Font = new Font("Segoe UI", 10, FontStyle.Regular);
@@ -51,7 +55,7 @@ namespace Cockfight_Betting_System
             headerPanel.Controls.Add(headerIconPictureBox);
 
             Label titleLabel = new Label();
-            titleLabel.Text = "🔴 LIVE - COCKFIGHT BETTING";
+            titleLabel.Text = "LIVE - COCKFIGHT BETTING";
             titleLabel.ForeColor = Color.White;
             titleLabel.Font = new Font("Segoe UI", 18, FontStyle.Bold);
             titleLabel.AutoSize = true;
@@ -64,15 +68,16 @@ namespace Cockfight_Betting_System
             Panel contentPanel = new Panel();
             contentPanel.Dock = DockStyle.Fill;
             contentPanel.BackColor = Color.FromArgb(25, 25, 25);
-            contentPanel.Padding = new Padding(12);
+            // add extra top padding so children (arena + betting) sit lower
+            contentPanel.Padding = new Padding(12, 120, 12, 12);
 
             // Arena Image Panel - Large and prominent
             Panel arenaPanel = new Panel();
             arenaPanel.BackColor = Color.FromArgb(50, 50, 50);
             arenaPanel.BorderStyle = BorderStyle.FixedSingle;
             arenaPanel.Dock = DockStyle.Top;
-            arenaPanel.Height = 350;
-            arenaPanel.Margin = new Padding(0, 0, 0, 15);
+            arenaPanel.Height = 280;
+            arenaPanel.Margin = new Padding(0, 30, 0, 20);
 
             // Arena Background Image
             PictureBox arenaPictureBox = new PictureBox();
@@ -180,6 +185,7 @@ namespace Cockfight_Betting_System
             bettingContainerPanel.Height = 250;
             bettingContainerPanel.BackColor = Color.FromArgb(25, 25, 25);
             bettingContainerPanel.Padding = new Padding(10);
+            bettingContainerPanel.Margin = new Padding(0, 40, 0, 20);
 
             // MERON Panel (Left, Red)
             Panel meronPanel = new Panel();
@@ -191,9 +197,9 @@ namespace Cockfight_Betting_System
             Label meronAmountLabel = new Label();
             meronAmountLabel.Text = "0";
             meronAmountLabel.ForeColor = Color.White;
-            meronAmountLabel.Font = new Font("Segoe UI", 56, FontStyle.Bold);
+            meronAmountLabel.Font = new Font("Segoe UI", 48, FontStyle.Bold);
             meronAmountLabel.TextAlign = ContentAlignment.MiddleCenter;
-            meronAmountLabel.Size = new Size(350, 60);
+            meronAmountLabel.Size = new Size(350, 70);
             meronAmountLabel.Location = new Point(0, 15);
             meronPanel.Controls.Add(meronAmountLabel);
 
@@ -230,9 +236,9 @@ namespace Cockfight_Betting_System
             Label walaAmountLabel = new Label();
             walaAmountLabel.Text = "1000.00";
             walaAmountLabel.ForeColor = Color.White;
-            walaAmountLabel.Font = new Font("Segoe UI", 56, FontStyle.Bold);
+            walaAmountLabel.Font = new Font("Segoe UI", 48, FontStyle.Bold);
             walaAmountLabel.TextAlign = ContentAlignment.MiddleCenter;
-            walaAmountLabel.Size = new Size(350, 60);
+            walaAmountLabel.Size = new Size(350, 70);
             walaAmountLabel.Location = new Point(0, 15);
             walaPanel.Controls.Add(walaAmountLabel);
 
@@ -269,9 +275,9 @@ namespace Cockfight_Betting_System
             Label drawAmountLabel = new Label();
             drawAmountLabel.Text = "0";
             drawAmountLabel.ForeColor = Color.White;
-            drawAmountLabel.Font = new Font("Segoe UI", 56, FontStyle.Bold);
+            drawAmountLabel.Font = new Font("Segoe UI", 48, FontStyle.Bold);
             drawAmountLabel.TextAlign = ContentAlignment.MiddleCenter;
-            drawAmountLabel.Size = new Size(350, 60);
+            drawAmountLabel.Size = new Size(350, 70);
             drawAmountLabel.Location = new Point(0, 15);
             drawPanel.Controls.Add(drawAmountLabel);
 
